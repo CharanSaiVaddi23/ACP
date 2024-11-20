@@ -1,0 +1,62 @@
+/* OurMissionPage.module.css */
+
+.missionPageContainer {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .missionQuote {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .missionHighlights {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .missionHighlights li {
+    font-size: 1.1rem;
+    color: #444;
+    padding-left: 1.5em;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .missionHighlights li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #007bff;  /* Custom bullet color */
+    font-size: 1.5em;
+    top: -2px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #777;
+  }
+  

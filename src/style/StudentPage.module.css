@@ -1,0 +1,150 @@
+:root {
+  --black: #0A0A0A;
+  --yellow: #EDB74D;
+  --bg-color: #F0DBA5;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--black);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: transparent; /* No background color */
+  color: var(--black); /* Black text color */
+  position: fixed; /* Fix the nav to the top */
+  top: 25px; /* Align it to the top of the page */
+  left: 2; /* Align it to the left edge */
+  width: 90%; /* Make the nav full width */
+  z-index: 1000; /* Ensure the nav stays on top of other elements */
+}
+
+body {
+  padding-top: 60px; /* Add padding to the top of the body to prevent content from being hidden under the nav */
+}
+.logo {
+  font-size: 24px;
+  margin: 0;
+  color: var(--black); /* Black text color for the logo */
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu p {
+  margin: 0;
+  cursor: pointer;
+  color: var(--black); /* Black text color for menu items */
+}
+
+.menu p:hover {
+  text-decoration: underline;
+}
+
+.studentPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.leftSection {
+  background-color: var(--yellow);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold; /* Make the text bold */
+  margin-top: -40px; /* Move the block higher by adjusting the top margin */
+}
+.centerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connectionsBtn {
+  background-color: var(--black);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.connectionsBtn:hover {
+  background-color: #333;
+}
+
+.rightSection {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold; /* Make the text bold */
+  margin-top: -40px;
+}
+
+.chatSection {
+  grid-column: span 3; /* Makes the chat section span all columns */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chatSection input[type="text"] {
+  width: calc(100% - 70px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.chatSection button {
+  background-color: var(--yellow);
+  color: var(--black);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chatSection button:hover {
+  background-color: #f2a823;
+}
+
+.feedbackButton {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.feedbackFormContainer {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}

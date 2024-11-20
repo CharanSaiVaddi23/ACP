@@ -1,0 +1,32 @@
+.connections-page {
+    padding: 20px;
+}
+
+.connections-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.alumni-profile {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alumni-profile:hover {
+    background-color: #f0f0f0;
+}
+
+.alumni-info h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #0A0A0A;
+}
+
+.alumni-info p {
+    font-size: 14px;
+    color: #333;
+}

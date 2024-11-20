@@ -1,0 +1,160 @@
+:root {
+  --bg: #F0DBA5;
+  --text: #0A0A0A;
+  --button-bg: #0A0A0A;
+  --button-text: #ffffff;
+  --form-bg: #ffffff;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+/* User Type Selection Form Styles */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.user-type-form {
+  background-color: var(--form-bg);
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+.user-type-form h3 {
+  font-size: 1.5em;
+  color: var(--text);
+  margin-bottom: 1em;
+}
+
+.selection-buttons {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.button {
+  padding: 0.6em 1.5em;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--text);
+  color: var(--form-bg);
+}
+
+/* Login Form Styles */
+.user-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--form-bg);
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: 2em auto;
+}
+
+.user-login-container h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: var(--text);
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.user-login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+
+.user-login-container input {
+  padding: 0.8em;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+.user-login-container input:focus {
+  border-color: var(--text);
+}
+
+.user-login-container button {
+  padding: 0.8em;
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-login-container button:hover {
+  background-color: #333333;
+}
+
+/* Choice buttons styling */
+.choice-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.choice-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2b6cb0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.choice-button:hover {
+  background-color: #2c5282;
+}
+
+.choice-button:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px #2c5282;
+}
+
+.menu p {
+  margin: 0;
+  cursor: pointer;
+  color: var(--black); /* Black text color for menu items */
+}
+
+.menu p:hover {
+  text-decoration: underline;
+}

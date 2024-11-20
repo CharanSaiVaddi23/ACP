@@ -1,0 +1,40 @@
+.notification-center {
+  padding: 20px;
+  background-color: var(--yellow); /* Use the yellow for the background */
+  border-radius: 8px; /* Soft rounded corners for a modern look */
+  color: var(--dark-black); /* Dark black for text */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  font-family: Arial, sans-serif; /* Use a clean, readable font */
+}
+
+.notification-center h2 {
+  color: var(--dark-black); /* Dark black for the header text */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.notification-center .notification {
+  background-color: #fefefe; /* Light background for each notification */
+  border-left: 4px solid var(--yellow); /* Left border for a distinct separation */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for each item */
+}
+
+.notification-center .notification p {
+  color: var(--dark-black); /* Dark text */
+  margin: 0;
+  font-size: 16px;
+}
+
+.mark-read-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
